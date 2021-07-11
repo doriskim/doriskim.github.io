@@ -1,0 +1,12 @@
+.hidden {
+  display: none;
+}
+.default {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  text-shadow: 1px 1px 3px BLACK;
+}
