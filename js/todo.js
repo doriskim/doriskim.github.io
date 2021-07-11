@@ -24,7 +24,7 @@ function paintToDo(newTodo) {
   span.innerText = newTodo.text;
   const button = document.createElement("button");
   button.innerText = "X";
-  button.style = " padding: 0.2px 0.2px; float: right";
+  button.style = " padding: 0.2px 0.2px;  float: right";
   button.addEventListener("click", deleteToDo);
   li.appendChild(span);
   li.appendChild(button);
